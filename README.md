@@ -2,9 +2,10 @@
 
 A container with simulated iocs
 
-## To run
+This version contains:
+* a simulated motor with 8 axis (IOC:m1, ..., IOC:m8)
+* a simulated areaDetector IOC (13SIM1:...)
 
-In container, on /root folder, run:
+## To run on background
 
-`./runIocs.sh`
-
+docker container run -d lnlssol/epics-sim /root/runIocsFG.sh

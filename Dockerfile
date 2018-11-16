@@ -9,6 +9,8 @@ COPY ADPatch.sh /root/ADPatch.sh
 RUN /root/ADPatch.sh
 
 COPY runIocs.sh /root/runIocs.sh
+COPY runIocsFG.sh /root/runIocsFG.sh
+
 WORKDIR /root
 
 CMD bash
